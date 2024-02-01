@@ -53,11 +53,15 @@ Nota: La opción -P /tmp descarga el comprimido en/tmp
 
 -El contenido se ha descomprimido en una carpeta que se llama wordpress. Ahora, movemos el contenido de /tpm/wordpress a /var/www/html.
 mv -f /tmp/wordpress/* /var/www/html
+
 -Cambio el usuario propietario del documentRoot:
 sudo chown -R www-data:www-data /var/www/html
+
 -Reinicia el servicio Apache2:
 sudo systemctl restart apache2
+
 -Termina de configurar WordPress a través de un navegador web. Abre un navegador web y escribe la dirección IP del servidor.
 http://ip_servidor1/
+
 -Una vez que hayas iniciado la sesión, accederás al panel de administración de WordPress. Ahora puedes empezar a personalizar el sitio web
 instalando plugins y temas de WordPress. (ver figuras)
