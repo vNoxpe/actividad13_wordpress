@@ -50,15 +50,23 @@ Nota: La opción -P /tmp descarga el comprimido en/tmp
 #apt install unzip -y
 
 ![image](https://github.com/vNoxpe/actividad13_wordpress/assets/144890599/641b5678-4f23-444f-b7e9-437a44431b3f)
+#ejeccutamos el siguiente comando
+![image](https://github.com/vNoxpe/actividad13_wordpress/assets/144890599/8f842e9f-40cf-41b3-b56d-bc315109c00c)
 
 -El contenido se ha descomprimido en una carpeta que se llama wordpress. Ahora, movemos el contenido de /tpm/wordpress a /var/www/html.
 mv -f /tmp/wordpress/* /var/www/html
 
+![image](https://github.com/vNoxpe/actividad13_wordpress/assets/144890599/be401a4a-ff9f-4fd6-b7a6-3899efe75a53)
+
 -Cambio el usuario propietario del documentRoot:
 sudo chown -R www-data:www-data /var/www/html
 
+![image](https://github.com/vNoxpe/actividad13_wordpress/assets/144890599/c8aa4e6d-7534-4119-8eda-d93c280a7d82)
+
 -Reinicia el servicio Apache2:
 sudo systemctl restart apache2
+
+![image](https://github.com/vNoxpe/actividad13_wordpress/assets/144890599/2b1d203c-703b-483e-b4af-2ef2c8ba10a4)
 
 -Termina de configurar WordPress a través de un navegador web. Abre un navegador web y escribe la dirección IP del servidor.
 http://ip_servidor1/
