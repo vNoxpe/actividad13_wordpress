@@ -122,3 +122,5 @@ http://ip_servidor1/
 
 -Una vez que hayas iniciado la sesión, accederás al panel de administración de WordPress. Ahora puedes empezar a personalizar el sitio web
 instalando plugins y temas de WordPress. (ver figuras)
+
+![image](https://github.com/vNoxpe/actividad13_wordpress/assets/144890599/2d3e76e3-710c-4df6-87c7-c3c04bef1c4c)
