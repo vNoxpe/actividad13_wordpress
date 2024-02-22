@@ -126,4 +126,4 @@ instalando plugins y temas de WordPress. (ver figuras)
 ![image](https://github.com/vNoxpe/actividad13_wordpress/assets/144890599/2d3e76e3-710c-4df6-87c7-c3c04bef1c4c)
 
 # Enlace al repositorio de github 
-(https://github.com/vNoxpe/actividad13_wordpress)
+[Actividad13_worpress](https://github.com/vNoxpe/actividad13_wordpress)
